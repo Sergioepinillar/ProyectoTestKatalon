@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="GoogleRunable" time="36.681" tests="2" failures="0" errors="0">
+   <testsuite name="GoogleRunable" tests="2" failures="0" errors="0" time="36.681" skipped="0" timestamp="14-01-2025T14:42:46" hostname="0365 - 192.165.30.169" id="Test Suites/GoogleRunable">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\0365\\Katalon Studio\\ProyectoAutomatizacionPass1\\Reports\\20250114_144239\\GoogleRunable\\20250114_144239"/>
+         <property name="logFiles" value="C:\\Users\\0365\\Katalon Studio\\ProyectoAutomatizacionPass1\\Reports\\20250114_144239\\GoogleRunable\\20250114_144239\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\0365\\Katalon Studio\\ProyectoAutomatizacionPass1\\Reports\\20250114_144239\\GoogleRunable\\20250114_144239\\D:/Capturas Imagenes Pruebas Aut/ProyectoAutomatizacionPass/InicioExitoso.jpg, C:\\Users\\0365\\Katalon Studio\\ProyectoAutomatizacionPass1\\Reports\\20250114_144239\\GoogleRunable\\20250114_144239\\D:/Capturas Imagenes Pruebas Aut/ProyectoAutomatizacionPass/InicioErrado1.jpg"/>
+         <property name="hostName" value="0365 - 192.165.30.169"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.7.3.223"/>
+         <property name="browser" value="Chrome 131.0.0.0"/>
+         <property name="hostAddress" value="192.165.30.169"/>
+         <property name="sessionId" value="485d13db6198bb9aca3ff49fcaa7aac1"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/InicioExitosoPass" time="23.473" classname="Test Cases/InicioExitosoPass" status="PASSED">
+         <system-out><![CDATA[14-01-2025T14:42:46 - [TEST_CASE][PASSED] - Test Cases/InicioExitosoPass: Test Cases/InicioExitosoPass
+
+14-01-2025T14:42:47 - [TEST_STEP][PASSED] - openBrowser("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+14-01-2025T14:42:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-01-2025T14:42:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-01-2025T14:42:57 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+14-01-2025T14:42:57 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+14-01-2025T14:42:57 - [MESSAGE][PASSED] - Current window maximized
+
+14-01-2025T14:42:57 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+14-01-2025T14:42:58 - [MESSAGE][PASSED] - Wait for page load successfully
+
+14-01-2025T14:42:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/BtonUsuario"), Usuario): Keys 'Admin' sent to object: 'Object Repository/BtonUsuario'
+
+14-01-2025T14:42:58 - [MESSAGE][PASSED] - Keys 'Admin' sent to object: 'Object Repository/BtonUsuario'
+
+14-01-2025T14:42:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/BtonPassword"), Password): Keys 'admin123' sent to object: 'Object Repository/BtonPassword'
+
+14-01-2025T14:42:58 - [MESSAGE][PASSED] - Keys 'admin123' sent to object: 'Object Repository/BtonPassword'
+
+14-01-2025T14:42:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/BtonLoggin"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/BtonLoggin'
+
+14-01-2025T14:43:00 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/BtonLoggin'
+
+14-01-2025T14:43:00 - [TEST_STEP][PASSED] - takeScreenshot("D:/Capturas Imagenes Pruebas Aut/ProyectoAutomatizacionPass/" + CapturaPantalla): Taking screenshot successfully
+
+14-01-2025T14:43:05 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\0365\\Katalon Studio\\ProyectoAutomatizacionPass1\\Reports\\20250114_144239\\GoogleRunable\\20250114_144239\\D:/Capturas Imagenes Pruebas Aut/ProyectoAutomatizacionPass/InicioExitoso.jpg]]
+
+14-01-2025T14:43:05 - [TEST_STEP][PASSED] - Thread.sleep(4000): null
+
+14-01-2025T14:43:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+14-01-2025T14:43:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/InicioExitosoPass" time="12.847" classname="Test Cases/InicioExitosoPass" status="PASSED">
+         <system-out><![CDATA[14-01-2025T14:43:10 - [TEST_CASE][PASSED] - Test Cases/InicioExitosoPass: Test Cases/InicioExitosoPass
+
+14-01-2025T14:43:10 - [TEST_STEP][PASSED] - openBrowser("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+14-01-2025T14:43:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-01-2025T14:43:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-01-2025T14:43:15 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+14-01-2025T14:43:15 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+14-01-2025T14:43:15 - [MESSAGE][PASSED] - Current window maximized
+
+14-01-2025T14:43:15 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+14-01-2025T14:43:15 - [MESSAGE][PASSED] - Wait for page load successfully
+
+14-01-2025T14:43:15 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/BtonUsuario"), Usuario): Keys 'sergio' sent to object: 'Object Repository/BtonUsuario'
+
+14-01-2025T14:43:15 - [MESSAGE][PASSED] - Keys 'sergio' sent to object: 'Object Repository/BtonUsuario'
+
+14-01-2025T14:43:15 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/BtonPassword"), Password): Keys '458575' sent to object: 'Object Repository/BtonPassword'
+
+14-01-2025T14:43:16 - [MESSAGE][PASSED] - Keys '458575' sent to object: 'Object Repository/BtonPassword'
+
+14-01-2025T14:43:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/BtonLoggin"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/BtonLoggin'
+
+14-01-2025T14:43:17 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/BtonLoggin'
+
+14-01-2025T14:43:17 - [TEST_STEP][PASSED] - takeScreenshot("D:/Capturas Imagenes Pruebas Aut/ProyectoAutomatizacionPass/" + CapturaPantalla): Taking screenshot successfully
+
+14-01-2025T14:43:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\0365\\Katalon Studio\\ProyectoAutomatizacionPass1\\Reports\\20250114_144239\\GoogleRunable\\20250114_144239\\D:/Capturas Imagenes Pruebas Aut/ProyectoAutomatizacionPass/InicioErrado1.jpg]]
+
+14-01-2025T14:43:18 - [TEST_STEP][PASSED] - Thread.sleep(4000): null
+
+14-01-2025T14:43:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+14-01-2025T14:43:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[14-01-2025T14:42:46 - [TEST_SUITE][PASSED] - GoogleRunable: Test Cases/InicioExitosoPass]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

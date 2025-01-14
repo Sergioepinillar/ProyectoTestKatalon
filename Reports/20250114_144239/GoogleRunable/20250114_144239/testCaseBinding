@@ -1,0 +1,2 @@
+{"testCaseName":"Test Cases/InicioExitosoPass","testCaseId":"Test Cases/InicioExitosoPass","iterationVariableName":"CapturaPantalla","bindedValues":{"Usuario":"\u0027Admin\u0027","CapturaPantalla":"\u0027InicioExitoso.jpg\u0027","Password":"\u0027admin123\u0027"}}
+{"testCaseName":"Test Cases/InicioExitosoPass","testCaseId":"Test Cases/InicioExitosoPass","iterationVariableName":"CapturaPantalla","bindedValues":{"Usuario":"\u0027sergio\u0027","CapturaPantalla":"\u0027InicioErrado1.jpg\u0027","Password":"\u0027458575\u0027"}}

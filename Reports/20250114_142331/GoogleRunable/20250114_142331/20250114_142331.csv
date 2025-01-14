@@ -1,0 +1,68 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+GoogleRunable,Chrome 131.0.0.0,,,14-01-2025 14:23:49,14-01-2025 14:25:08,"1m - 18,803s",PASSED
+,,,,,,,
+Test Cases/InicioExitosoPass,Chrome 131.0.0.0,,,14-01-2025 14:23:50,14-01-2025 14:24:11,"21,025s",PASSED
+"openBrowser(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 131.0.0.0,,,14-01-2025 14:23:50,14-01-2025 14:24:02,"11,698s",PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,14-01-2025 14:24:02,14-01-2025 14:24:02,"0,059s",PASSED
+waitForPageLoad(30),Chrome 131.0.0.0,,,14-01-2025 14:24:02,14-01-2025 14:24:03,"1,247s",PASSED
+"sendKeys(findTestObject(""Object Repository/BtonUsuario""), UsuarioCorrecto)",Chrome 131.0.0.0,,,14-01-2025 14:24:03,14-01-2025 14:24:04,"0,481s",PASSED
+"sendKeys(findTestObject(""Object Repository/BtonPassword""), PassWordCorrecto)",Chrome 131.0.0.0,,,14-01-2025 14:24:04,14-01-2025 14:24:04,"0,457s",PASSED
+"sendKeys(findTestObject(""Object Repository/BtonLoggin""), Keys.chord(ENTER))",Chrome 131.0.0.0,,,14-01-2025 14:24:04,14-01-2025 14:24:05,"0,879s",PASSED
+"takeScreenshot(""D:/Capturas Imagenes Pruebas Aut/ProyectoAutomatizacionPass/"" + CaptInicioExitoso)",Chrome 131.0.0.0,,,14-01-2025 14:24:05,14-01-2025 14:24:06,"0,829s",PASSED
+Thread.sleep(4000),Chrome 131.0.0.0,,,14-01-2025 14:24:06,14-01-2025 14:24:10,"4,021s",PASSED
+closeBrowser(),Chrome 131.0.0.0,,,14-01-2025 14:24:10,14-01-2025 14:24:11,"0,774s",PASSED
+,,,,,,,
+Test Cases/InicioExitosoPass,Chrome 131.0.0.0,,,14-01-2025 14:24:11,14-01-2025 14:24:23,"12,048s",PASSED
+"openBrowser(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 131.0.0.0,,,14-01-2025 14:24:11,14-01-2025 14:24:16,"4,900s",PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,14-01-2025 14:24:16,14-01-2025 14:24:16,"0,051s",PASSED
+waitForPageLoad(30),Chrome 131.0.0.0,,,14-01-2025 14:24:16,14-01-2025 14:24:16,"0,017s",PASSED
+"sendKeys(findTestObject(""Object Repository/BtonUsuario""), UsuarioCorrecto)",Chrome 131.0.0.0,,,14-01-2025 14:24:16,14-01-2025 14:24:17,"0,807s",PASSED
+"sendKeys(findTestObject(""Object Repository/BtonPassword""), PassWordCorrecto)",Chrome 131.0.0.0,,,14-01-2025 14:24:17,14-01-2025 14:24:17,"0,336s",PASSED
+"sendKeys(findTestObject(""Object Repository/BtonLoggin""), Keys.chord(ENTER))",Chrome 131.0.0.0,,,14-01-2025 14:24:17,14-01-2025 14:24:18,"0,770s",PASSED
+"takeScreenshot(""D:/Capturas Imagenes Pruebas Aut/ProyectoAutomatizacionPass/"" + CaptInicioExitoso)",Chrome 131.0.0.0,,,14-01-2025 14:24:18,14-01-2025 14:24:19,"0,916s",PASSED
+Thread.sleep(4000),Chrome 131.0.0.0,,,14-01-2025 14:24:19,14-01-2025 14:24:23,"4,006s",PASSED
+closeBrowser(),Chrome 131.0.0.0,,,14-01-2025 14:24:23,14-01-2025 14:24:23,"0,220s",PASSED
+,,,,,,,
+Test Cases/InicioExitosoPass,Chrome 131.0.0.0,,,14-01-2025 14:24:23,14-01-2025 14:24:34,"11,415s",PASSED
+"openBrowser(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 131.0.0.0,,,14-01-2025 14:24:23,14-01-2025 14:24:27,"4,091s",PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,14-01-2025 14:24:27,14-01-2025 14:24:27,"0,039s",PASSED
+waitForPageLoad(30),Chrome 131.0.0.0,,,14-01-2025 14:24:27,14-01-2025 14:24:27,"0,020s",PASSED
+"sendKeys(findTestObject(""Object Repository/BtonUsuario""), UsuarioCorrecto)",Chrome 131.0.0.0,,,14-01-2025 14:24:27,14-01-2025 14:24:28,"0,769s",PASSED
+"sendKeys(findTestObject(""Object Repository/BtonPassword""), PassWordCorrecto)",Chrome 131.0.0.0,,,14-01-2025 14:24:28,14-01-2025 14:24:28,"0,409s",PASSED
+"sendKeys(findTestObject(""Object Repository/BtonLoggin""), Keys.chord(ENTER))",Chrome 131.0.0.0,,,14-01-2025 14:24:28,14-01-2025 14:24:29,"0,994s",PASSED
+"takeScreenshot(""D:/Capturas Imagenes Pruebas Aut/ProyectoAutomatizacionPass/"" + CaptInicioExitoso)",Chrome 131.0.0.0,,,14-01-2025 14:24:29,14-01-2025 14:24:30,"0,797s",PASSED
+Thread.sleep(4000),Chrome 131.0.0.0,,,14-01-2025 14:24:30,14-01-2025 14:24:34,"4,004s",PASSED
+closeBrowser(),Chrome 131.0.0.0,,,14-01-2025 14:24:34,14-01-2025 14:24:34,"0,265s",PASSED
+,,,,,,,
+Test Cases/InicioExitosoPass,Chrome 131.0.0.0,,,14-01-2025 14:24:34,14-01-2025 14:24:46,"11,675s",PASSED
+"openBrowser(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 131.0.0.0,,,14-01-2025 14:24:34,14-01-2025 14:24:39,"4,456s",PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,14-01-2025 14:24:39,14-01-2025 14:24:39,"0,036s",PASSED
+waitForPageLoad(30),Chrome 131.0.0.0,,,14-01-2025 14:24:39,14-01-2025 14:24:39,"0,015s",PASSED
+"sendKeys(findTestObject(""Object Repository/BtonUsuario""), UsuarioCorrecto)",Chrome 131.0.0.0,,,14-01-2025 14:24:39,14-01-2025 14:24:40,"0,778s",PASSED
+"sendKeys(findTestObject(""Object Repository/BtonPassword""), PassWordCorrecto)",Chrome 131.0.0.0,,,14-01-2025 14:24:40,14-01-2025 14:24:40,"0,336s",PASSED
+"sendKeys(findTestObject(""Object Repository/BtonLoggin""), Keys.chord(ENTER))",Chrome 131.0.0.0,,,14-01-2025 14:24:40,14-01-2025 14:24:41,"0,771s",PASSED
+"takeScreenshot(""D:/Capturas Imagenes Pruebas Aut/ProyectoAutomatizacionPass/"" + CaptInicioExitoso)",Chrome 131.0.0.0,,,14-01-2025 14:24:41,14-01-2025 14:24:42,"0,963s",PASSED
+Thread.sleep(4000),Chrome 131.0.0.0,,,14-01-2025 14:24:42,14-01-2025 14:24:46,"4,015s",PASSED
+closeBrowser(),Chrome 131.0.0.0,,,14-01-2025 14:24:46,14-01-2025 14:24:46,"0,281s",PASSED
+,,,,,,,
+Test Cases/InicioExitosoPass,Chrome 131.0.0.0,,,14-01-2025 14:24:46,14-01-2025 14:24:57,"10,903s",PASSED
+"openBrowser(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 131.0.0.0,,,14-01-2025 14:24:46,14-01-2025 14:24:50,"3,765s",PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,14-01-2025 14:24:50,14-01-2025 14:24:50,"0,051s",PASSED
+waitForPageLoad(30),Chrome 131.0.0.0,,,14-01-2025 14:24:50,14-01-2025 14:24:50,"0,015s",PASSED
+"sendKeys(findTestObject(""Object Repository/BtonUsuario""), UsuarioCorrecto)",Chrome 131.0.0.0,,,14-01-2025 14:24:50,14-01-2025 14:24:51,"0,756s",PASSED
+"sendKeys(findTestObject(""Object Repository/BtonPassword""), PassWordCorrecto)",Chrome 131.0.0.0,,,14-01-2025 14:24:51,14-01-2025 14:24:51,"0,331s",PASSED
+"sendKeys(findTestObject(""Object Repository/BtonLoggin""), Keys.chord(ENTER))",Chrome 131.0.0.0,,,14-01-2025 14:24:51,14-01-2025 14:24:51,"0,362s",PASSED
+"takeScreenshot(""D:/Capturas Imagenes Pruebas Aut/ProyectoAutomatizacionPass/"" + CaptInicioExitoso)",Chrome 131.0.0.0,,,14-01-2025 14:24:51,14-01-2025 14:24:53,"1,319s",PASSED
+Thread.sleep(4000),Chrome 131.0.0.0,,,14-01-2025 14:24:53,14-01-2025 14:24:57,"4,004s",PASSED
+closeBrowser(),Chrome 131.0.0.0,,,14-01-2025 14:24:57,14-01-2025 14:24:57,"0,283s",PASSED
+,,,,,,,
+Test Cases/InicioExitosoPass,Chrome 131.0.0.0,,,14-01-2025 14:24:57,14-01-2025 14:25:08,"11,284s",PASSED
+"openBrowser(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 131.0.0.0,,,14-01-2025 14:24:57,14-01-2025 14:25:01,"4,048s",PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,14-01-2025 14:25:01,14-01-2025 14:25:01,"0,049s",PASSED
+waitForPageLoad(30),Chrome 131.0.0.0,,,14-01-2025 14:25:01,14-01-2025 14:25:01,"0,016s",PASSED
+"sendKeys(findTestObject(""Object Repository/BtonUsuario""), UsuarioCorrecto)",Chrome 131.0.0.0,,,14-01-2025 14:25:01,14-01-2025 14:25:02,"0,795s",PASSED
+"sendKeys(findTestObject(""Object Repository/BtonPassword""), PassWordCorrecto)",Chrome 131.0.0.0,,,14-01-2025 14:25:02,14-01-2025 14:25:02,"0,365s",PASSED
+"sendKeys(findTestObject(""Object Repository/BtonLoggin""), Keys.chord(ENTER))",Chrome 131.0.0.0,,,14-01-2025 14:25:02,14-01-2025 14:25:03,"0,775s",PASSED
+"takeScreenshot(""D:/Capturas Imagenes Pruebas Aut/ProyectoAutomatizacionPass/"" + CaptInicioExitoso)",Chrome 131.0.0.0,,,14-01-2025 14:25:03,14-01-2025 14:25:04,"0,897s",PASSED
+Thread.sleep(4000),Chrome 131.0.0.0,,,14-01-2025 14:25:04,14-01-2025 14:25:08,"4,004s",PASSED
+closeBrowser(),Chrome 131.0.0.0,,,14-01-2025 14:25:08,14-01-2025 14:25:08,"0,316s",PASSED
