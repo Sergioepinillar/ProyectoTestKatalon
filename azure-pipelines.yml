@@ -1,0 +1,29 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+  branches:
+    include:
+      - main # o la rama de tu proyecto
+
+pool:
+  vmImage: 'windows-latest'  # Usa una imagen de Windows
+
+steps:
+- task: UseDotNet@2
+  inputs:
+    packageType: 'sdk'
+    version: '6.x'
+    installationPath: $(Agent.ToolsDirectory)/dotnet
+
+- task: UseKatalon@1
+  inputs:
+    katalonVersion: '7.x.x'  # Versión de Katalon Studio que quieres usar
+    executionType: 'Console'  # Ejecutar en consola, puedes cambiar a 'GUI' si prefieres
+    katalonExecutionCommand: 'Katalon.exe'
+    projectPath: 'https://github.com/Sergioepinillar/ProyectoTestKatalon.git'
+    suitePath: 'C:\Users\0365\Katalon Studio\ProyectoAutomatizacionPass1\Test Suites'
+    reportPath: 'D:\Proyecto\Katalon\Informes de Ejecución'
+    logPath: 'D:\Proyecto\Katalon\Logs'
